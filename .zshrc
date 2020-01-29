@@ -24,4 +24,10 @@ antigen theme https://github.com/denysdovhan/spaceship-prompt spaceship
 # Tell Antigen that you're done.
 antigen apply
 
-export SPACESHIP_CHAR_SYMBOL='🤔  '
+export SPACESHIP_CHAR_SYMBOL='🚀  '
+
+alias o='xdg-open'
+
+# Git
+alias rlbts='git fetch origin; git reset --hard origin/staging'
+alias gcs='git checkout staging'
